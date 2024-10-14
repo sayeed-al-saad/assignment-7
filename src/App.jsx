@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="body">
+      <div className="body space-y-4">
       <Header></Header>
       <Banner></Banner>
       <div>
