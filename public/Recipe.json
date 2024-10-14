@@ -16,7 +16,7 @@
         "calories": "320 calories"
     },
     {
-        "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+        "recipe_image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=600",
         "recipe_id": 2,
         "recipe_name": "Spaghetti Bolognese",
         "short_description": "Classic Italian pasta dish with a rich meat sauce.",
@@ -32,7 +32,7 @@
         "calories": "480 calories"
     },
     {
-        "recipe_image": "https://example.com/images/vegetable_soup.jpg",
+        "recipe_image": "https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg?auto=compress&cs=tinysrgb&w=600",
         "recipe_id": 3,
         "recipe_name": "Vegetable Soup",
         "short_description": "A healthy and hearty vegetable soup.",
@@ -48,7 +48,7 @@
         "calories": "150 calories"
     },
     {
-        "recipe_image": "https://example.com/images/tacos.jpg",
+        "recipe_image": "https://images.pexels.com/photos/2338015/pexels-photo-2338015.jpeg?auto=compress&cs=tinysrgb&w=600",
         "recipe_id": 4,
         "recipe_name": "Tacos",
         "short_description": "Tasty tacos filled with seasoned meat and fresh toppings.",
@@ -64,7 +64,7 @@
         "calories": "350 calories"
     },
     {
-        "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+        "recipe_image": "https://images.pexels.com/photos/3049426/pexels-photo-3049426.jpeg?auto=compress&cs=tinysrgb&w=600",
         "recipe_id": 5,
         "recipe_name": "Chocolate Cake",
         "short_description": "Rich and moist chocolate cake for dessert lovers.",
@@ -80,7 +80,7 @@
         "calories": "450 calories"
     },
     {
-        "recipe_image": "https://example.com/images/pancakes.jpg",
+        "recipe_image": "https://images.pexels.com/photos/574111/pexels-photo-574111.jpeg?auto=compress&cs=tinysrgb&w=600",
         "recipe_id": 6,
         "recipe_name": "Pancakes",
         "short_description": "Fluffy pancakes served with maple syrup.",
