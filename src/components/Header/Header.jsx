@@ -8,10 +8,12 @@ const Header = () => {
     <a className="btn btn-ghost text-xl">daisyUI</a>
   </div>
   <div className=" space-x-8">
-                <nav>Home</nav>
-                <nav>Recipes</nav>
-                <nav>About</nav>
-                 <nav>Search</nav>
+  <nav className="flex space-x-4 p-4  text-white">
+  <a href="#home">Home</a>
+  <a href="#recipes">Recipes</a>
+  <a href="#about">About</a>
+  <a href="#search">Search</a>
+</nav>
     </div>
   <div className="flex-none gap-2">
     <div className="form-control">
