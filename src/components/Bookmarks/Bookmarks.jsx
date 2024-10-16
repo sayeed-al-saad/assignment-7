@@ -8,7 +8,7 @@ const Bookmarks = (({bookmarks}) => {
         <div>
             <div className='bg-accent-content p-5 rounded-lg'>
                 <h2>Want to Cook : {bookmarks.length} </h2>
-                <div className='flex justify-between'>
+                <div className='flex gap-20'>
                     <p>Name</p>
                     <p>Time</p>
                     <p>Calories</p>
