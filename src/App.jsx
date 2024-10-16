@@ -1,24 +1,32 @@
 import Header from "./components/Header/Header"
 import Banner from "./components/Banner/Banner"
 import Recipes from "./components/Recipes/Recipes"
-import Bookmarks from "./components/Bookmarks/Bookmarks"
+
 
 import './App.css'
+import { useState } from "react"
 
 function App() {
+
+  const [bookmarks, setBookmarks] = useState([]) 
+
+  const handleAddtoBookmark = recipe => {
+    const newBookmarks = [...bookmarks, recipe];
+    setBookmarks(newBookmarks);
+  }
 
   return (
     <>
       <div className="body space-y-4">
-      <Header></Header>
-      <Banner></Banner>
-      <div>
-        <Recipes></Recipes>
-        <Bookmarks></Bookmarks>
-      </div>
+        <Header />
+        <Banner />
+        <div>
+          <Recipes handleAddtoBookmark={handleAddtoBookmark} bookmarks={bookmarks} /> {/* Pass both props */}
+          
+        </div>
       </div>
     </>
   )
 }
 
-export default App
+export default App;

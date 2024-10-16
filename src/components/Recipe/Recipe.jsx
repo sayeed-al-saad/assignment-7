@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 
-const Recipe = (({recipe}) => {
+const Recipe = (({recipe, handleAddtoBookmark}) => {
 
     const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
 
@@ -28,7 +28,7 @@ const Recipe = (({recipe}) => {
                         <p>{calories} </p>
                     </div>
                 </div>
-                <button className='btn btn-success my-6'>Want to Cook</button>
+                <button onClick={()=> handleAddtoBookmark(recipe)} className='btn btn-success my-6'>Want to Cook</button>
                 </div>
             </div>
         </div>
@@ -36,7 +36,8 @@ const Recipe = (({recipe}) => {
 });
 
 Recipe.propTypes = {
-    recipe: PropTypes.object.isRequired
+    recipe: PropTypes.object.isRequired,
+    handleAddtoBookmark: PropTypes.func.isRequired
 };
 
 export default Recipe;
